@@ -1,0 +1,164 @@
+/*start header*/
+.flex-box {
+  display: flex;
+  background-color: #333;
+}
+.flex-box > div {
+  border: 2px solid #efefef;
+  margin: 10px;
+  margin-left: 15%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-content: center;
+  background-color: #efefef;
+}
+/*end header*/
+
+/*start form box*/
+.form-box {
+  background-color: #333;
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  color: #fff;
+}
+.form-box h1 {
+  margin-left: 60px;
+}
+.form-box .input {
+  padding: 10px;
+  margin-left: 10px;
+}
+/*end form box*/
+
+/*start table box*/
+.table-box {
+  background-color: #333;
+  color: #efefef;
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.table-box table,
+th,
+td {
+  border: 1px solid #efefef;
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 400px;
+  height: 420px;
+}
+.table-box h1 {
+  margin-left: 125px;
+}
+
+/*end table box*/
+
+/*start list box*/
+.list-box {
+  background-color: #333;
+  color: #efefef;
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  width: 400px;
+  height: 498px;
+}
+
+.list-box h2 {
+  margin-left: 100px;
+}
+.list-box li {
+  margin-left: 90px;
+}
+
+/*end list box*/
+
+/*start section box*/
+.section-box {
+  background-color: #333;
+  color: #efefef;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 800px;
+  left: 800px;
+}
+.section-box img {
+  width: 400px;
+  height: 300px;
+}
+
+.section-box h2 {
+  margin-left: 10px;
+}
+.section-box p {
+  margin-left: 5px;
+}
+/*end section box*/
+
+/*start footer*/
+.footer {
+  margin-top: 95%;
+  width: 70%;
+  padding: 100px 15%;
+  background-color: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer div {
+  text-align: center;
+}
+
+.col2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  font-weight: 300px;
+  margin-bottom: 30px;
+  letter-spacing: 1;
+}
+
+.col1 a {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+/*end footer*/
